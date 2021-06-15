@@ -1,0 +1,138 @@
+.html *{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: center;
+}
+
+.navigationbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    max-width: 1200px;
+}
+
+.navigationbar li{
+    float: left;
+    line-height: 80px;
+    background-color: #E4000F;
+    font-size: 20px;
+    width: 20%;
+}
+
+.navigationbar a{
+    padding-left: 22px;
+    padding-right: 22px;
+    text-decoration: none;
+    color: #f8f8f8;
+}
+
+.navigationbar a:hover{
+    padding-left: 22px;
+    padding-right: 22px;
+    text-decoration: none;
+    color: #3a1212;
+}
+
+.welcome-banner{
+    background-image: url("../images/wallpaper.png");
+    height: 500px;
+    width: 1200px;
+    background-position: center;
+    background-size: cover;
+}
+
+.section{
+    width: 1200px;
+    height: 500px;
+    margin-top: 5px;
+}
+
+.section .infobox-left{
+    background-color: #E4000F;
+    width: 30%;
+    padding: 30px;
+    width: 300px;
+    margin-left: 0px;
+    margin-right: auto;
+}
+
+.section .infobox-right{
+    background-color: #E4000F;
+    width: 30%;
+    padding: 30px;
+    width: 300px;
+    margin-right: 0px;
+    margin-left: auto;
+}
+
+.headline{
+    color: #f8f8f8;
+    font-size: 35px;
+}
+
+.bannerhl{
+    color: #f8f8f8;
+    font-size: 35px;
+    margin-top: 50px;
+    position: center;
+}
+
+.subhead{
+    color: #f8f8f8;
+    font-size: 25px;;
+}
+
+.beschreibung{
+    color:whitesmoke;
+    font-size: 18px;
+}
+
+body{
+    margin-top: 0px;
+    margin-left: 10px;
+    font-style: 'Verdana';
+}
+
+.gbclassic{
+    background-image: url("../images/gbclassic.jpg");
+    background-position: center;
+    height: 500px;
+    margin: 0px;
+}
+
+.gbcolor{
+    background-image: url("../images/gbcolor.jpg");
+    background-position: center;
+    height: 500px;
+    margin: 0px;
+}
+
+.gbadvance{
+    background-image: url("../images/gbadvance.jpg");
+    background-position: center;
+    height: 500px;
+    margin: 0px;
+}
+
+.gbadvancesp{
+    background-image: url("../images/gbadvancesp.jpg");
+    background-position: center;
+    height: 500px;
+    margin: 0px;
+}
+
+.social{
+    background-image: url("../images/insta.jpg");
+    background-position: center;
+    height: 500px;
+    margin: 0px;
+}
+
+.buttons input[type="button"]{
+    top: 10px;
+    left: 8px;
+    font-size: 17px;
+    background-color: white;
+    border: none;
+    padding: 10px;
+    color: firebrick;
+}
