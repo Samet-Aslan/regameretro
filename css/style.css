@@ -134,6 +134,17 @@ body{
     font-size: 25px;;
 }
 
+.productsubhead{
+    color: #F72F37;
+    font-size: 20px;;
+}
+
+.productheadline{
+    color: #F72F37;
+    font-size: 25px;
+}
+
+
 .beschreibung{
     color:whitesmoke;
     font-size: 18px;
@@ -190,3 +201,56 @@ body{
     border-radius: 20px;
 }
 
+.wrapper{
+    display: flex;
+    height: 700px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: auto;
+}
+
+.productimage{
+    width: 50%;
+    height: 100%;
+    text-align: right;
+}
+
+.productcontent{
+    width: 50%;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.productcontent p{
+    width: 50%;
+    text-align: left;
+}
+
+.price{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.tax{
+    font-size: 12px;
+}
+
+
+
+.priceinfo p{
+    display: table-cell;
+}
+
+.priceinfo{
+    margin-top: 30px;
+}
+
+.productbuttons{
+    text-align: left;
+    margin-top: 30px;
+}
+
+.dropdowns{
+    width: 100%;
+    text-align: left;
+}
