@@ -211,7 +211,11 @@ body{
 
 .productimage{
     width: 50%;
-    height: 100%;
+    text-align: right;
+}
+
+.productimage img{
+    width: 500px;
     text-align: right;
 }
 
@@ -234,8 +238,6 @@ body{
 .tax{
     font-size: 12px;
 }
-
-
 
 .priceinfo p{
     display: table-cell;

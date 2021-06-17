@@ -16,5 +16,17 @@ function go(event) {
         break;
         default:
    }
-   
+}
+
+function pickedElement(event){
+    var edition = event.target.value;
+
+    switch(edition){
+        case "zelda":
+            document.getElementById('productimg').src = "../Projekt HTML/images/zeldadmg.jpg"
+            break;
+        case "simpsons":
+            document.getElementById('productimg').src = "../Projekt HTML/images/simpsondmg.jpg"
+            break;
+    }
 }
